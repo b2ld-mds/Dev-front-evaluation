@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,IAAI;EACH,gBAAgB,EAAE,KAAK;EACvB,UAAU,EAAE,MAAM;EAClB,KAAK,EAAE,KAAK",
-"sources": ["evaluation.scss"],
-"names": [],
-"file": "evaluation.css"
-}
