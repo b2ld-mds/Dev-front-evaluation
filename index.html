@@ -10,8 +10,76 @@
         <link href="evaluation.css" rel="stylesheet">
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.js" rel="stylesheet"></script>
 	</head>
-	<body>
+	<body class="container-fluid">
 		<h1> Evaluation </h1>
+		<button type="button" class="btn btn-outline-secondary btn-sm" id="boutonbox">Box</button>
+		<button type="button" class="btn btn-outline-secondary btn-sm" id="boutonvideo">Videos</button>
+		<button type="button" class="btn btn-outline-secondary btn-sm" id="boutontableau">Tableau</button>
+
+		<section class="row" id="box">
+			<div>
+				<h2>Box 1</h2>
+				<img src = "img/icone1.svg">
+				<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do euisomed tempor incidut ut labore.</p>
+			</div>
+
+			<div>
+				<h2>Box 2</h2>
+				<img src = "img/icone2.svg">
+				<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do euisomed tempor incidut ut labore.</p>
+			</div>
+
+			<div>
+				<h2>Box 3</h2>
+				<img src = "img/icone3.svg">
+				<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do euisomed tempor incidut ut labore.</p>
+			</div>
+		</section>
+
+		<section class="row" id="videos">
+			<div class="col-3" id="vignettes">
+				<img src="img/vignette1.png" id="vignette1">
+				<img src="img/vignette2.png" id="vignette2">
+				<img src="img/vignette3.png" id="vignette3">
+			</div>
+			<div class="col-9">
+				<iframe width=100% height=100% src="https://www.youtube.com/embed/TJXsf1zpP-0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</section>
+
+		<section id="tableau">
+			<table class="table">
+				<thead class="thead-dark">
+				    <tr>
+				      <th scope="col">#</th>
+				      <th scope="col">First</th>
+				      <th scope="col">Last</th>
+				      <th scope="col">Handle</th>
+				    </tr>
+				</thead>
+				<tbody>
+				    <tr>
+				      <th scope="row">1</th>
+				      <td>Mark</td>
+				      <td>Otto</td>
+				      <td>@mdo</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">2</th>
+				      <td>Jacob</td>
+				      <td>Thornton</td>
+				      <td>@fat</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">3</th>
+				      <td>Larry</td>
+				      <td>the Bird</td>
+				      <td>@twitter</td>
+				    </tr>
+				</tbody>
+			</table>
 	</body>
 	<script src="evaluation.js"></script>
 </html>
+
+

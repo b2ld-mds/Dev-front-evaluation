@@ -1,6 +1,46 @@
 body {
-  background-color: black;
+  background-color: white;
+  color: black;
+  text-align: center; }
+
+#box div {
+  background-color: gold;
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 100%;
   text-align: center;
-  color: white; }
+  display: table-cell;
+  vertical-align: middle; }
+  #box div img {
+    height: 75px;
+    align-content: center; }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #box div {
+    width: calc(33.33% - 12px); } }
+@media (min-width: 992px) {
+  #box div {
+    width: calc(33.33% - 12px); } }
+#videos {
+  margin-top: 40px;
+  margin-bottom: 40px; }
+  #videos img {
+    margin-top: 10px;
+    margin-left: 30px; }
+
+#tableau {
+  margin-top: 40px; }
+
+#loupe {
+  height: 60px;
+  position: absolute;
+  right: 5px;
+  top: 150px;
+  display: inline-block;
+  background: #eee;
+  border: 1px solid #DD4B39;
+  font-size: 1.5em;
+  font-weight: 250;
+  padding: 10px; }
 
 /*# sourceMappingURL=evaluation.css.map */
